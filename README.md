@@ -5,5 +5,11 @@ React + Mobx boilerplate.
 Simple project to start a react + mobx project.
 
 Resources:
-https://github.com/facebookincubator/create-react-app
+<ul>
+<li>
+  https://github.com/facebookincubator/create-react-app
+  </li>
+  <li>
 https://www.youtube.com/watch?time_continue=1058&v=Dp75-DnGFrU
+<li/>
+  <ul>
