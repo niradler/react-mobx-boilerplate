@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {inject, observer} from 'mobx-react'
-import { Router, Route } from 'react-router'
+import { BrowserRouter,Route } from 'react-router-dom'
 import Header from './Header.js';
 import Main from './Main.js';
 import PagesList from './PagesList.js';
@@ -16,8 +16,12 @@ class App extends Component {
   <div className="App">
       <Header />
         <div className="App-intro">
+        <BrowserRouter>
+        <div>
         <Route path="/" exact component={Main} />
         <Route path="/pages/list" component={PagesList} />
+        </div>
+        </BrowserRouter>
         </div>
       </div>
     );
